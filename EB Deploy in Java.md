@@ -1,4 +1,5 @@
-﻿#DEPLOY IN JAVA THROUGH ELASTIC BEANSTALK#
+﻿DEPLOY IN JAVA THROUGH ELASTIC BEANSTALK
+========================================
 
 Amazon Web Services (AWS) comprises dozens of services, each of which exposes an area of functionality. While the variety of services offers flexibility for how you want to manage your AWS infrastructure, it can be challenging to figure out which services to use and how to provision them.
 ![Elastic Console]![(http://notes.webutvikling.org/wp-content/uploads/2016/10/beanstalk.jpg)](https://lh3.googleusercontent.com/-iZ9KEWuyJQE/WiQFztFTDfI/AAAAAAAAD_w/WIPpsw5KW3YYshoeoGIr31XMeYaOD5NtwCLcBGAs/s0/elastic1.png "elastic1.png")
@@ -7,7 +8,8 @@ With Elastic Beanstalk, you can quickly deploy and manage applications in the AW
 For more information  , please check out this link:
 http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html
 
-###1.	Deploy Java file through AWS Console: ###
+1. Deploy Java file through AWS Console:
+----------------------------------------
 
 Deploying Java Application through the console is a multi step process during which EC2 asks for a simple .jar file to read in and broadcast it on the AWS console. 
 
@@ -24,7 +26,8 @@ You can simply change the port in the application.properties:
 
 ![Setting the Port](https://lh3.googleusercontent.com/-Sfqav50CLpk/WiJ2PVestCI/AAAAAAAAD8g/QhfJdGMldusmnIGIa10PCo6bC0dW2CvngCLcBGAs/s0/approp.png "approp.png")
 
-###2.	Deploy Java application through the Elastic Beanstalk Command Line Interface. ###
+2. Deploy Java application through the Elastic Beanstalk Command Line Interface.
+------------------------------------------------------------------------
 
 The EB CLI is a command line interface for Elastic Beanstalk that provides interactive commands that simplify creating, updating and monitoring environments from a local repository. Use the EB CLI as part of your everyday development and testing cycle as an alternative to the AWS Management Console.
 
